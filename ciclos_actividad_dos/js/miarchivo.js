@@ -19,11 +19,8 @@ boton.addEventListener('click', ()=>{
         cantidad = Number(cantidad);
         console.log('la cantidad ingresada es: ', cantidad); 
         for(let i =0; i <(cantidad); i++){
-            //mensaje2.textContent = (`Hola este es el mensaje ${i} `);
-            //document.writeln("<p>Hola este es el mensaje : "+ i + "</p>" + "<br>");
             //mensaje2.innerHTML += '<br>' + 'Eeste es el mensaje : ' + (i+1);
             mensaje2.innerHTML = mensaje2.innerHTML +'<br>' + 'Este es el mensaje dentro del For loop numero =  ' + (i+1);
-           
         }
     }
     
